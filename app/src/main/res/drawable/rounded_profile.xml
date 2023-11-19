@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Circular background shape -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/darker_gray"/>
+        </shape>
+    </item>
+    <!-- Drawable to be displayed within the circular shape -->
+    <item android:drawable="@drawable/ic_default"
+        android:gravity="center"/>
+</layer-list>
